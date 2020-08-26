@@ -61,10 +61,10 @@
                 dataType:'json',
                 success:function( res ){
                     if( res.status == 200 ){
-                        layer.open({
-                            title: '登录'
-                            ,content: '登陆成功'
-                        });
+//                        layer.open({
+//                            title: '登录'
+//                            ,content: '登陆成功'
+//                        });
                         location.href='/'
                     }else{
                         layer.open({
